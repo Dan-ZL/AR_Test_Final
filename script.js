@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   // 动画循环：让所有模型一起旋转
   renderer.setAnimationLoop(() => {
     models.forEach((m) => {
-      m.rotation.y += 0.01;
+      m.rotation.z += 0.01;
     });
     renderer.render(scene, camera);
   });
