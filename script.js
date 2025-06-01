@@ -47,10 +47,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
 
   // 添加多个模型：可以是同一个模型或不同模型
-  addModel('./assets/models/model.glb', [0, 0.2, 0], 0.5);        // 正中
-  addModel('./assets/models/model.glb', [0.3, 0.2, 0], 0.4); // 右侧略小
-  addModel('./assets/models/model.glb', [-0.3, 0.2, 0], 0.6);// 左侧略大
-  addModel('./assets/models/model.glb', [0, 0.2, -0.3], 0.5, Math.PI / 4); // 背后稍微转个角度
+  addModel('./assets/models/model.glb', [0, 0.2, 0], 0.1);        // 正中
+  addModel('./assets/models/model.glb', [0.3, 0.2, 0], 0.1); // 右侧略小
+  addModel('./assets/models/model.glb', [-0.3, 0.2, 0], 0.1);// 左侧略大
+  addModel('./assets/models/model.glb', [0, 0.2, -0.3], 0.1); // 背后稍微转个角度
 
   // 点击进入全屏（只触发一次）
   document.body.addEventListener('click', async () => {
