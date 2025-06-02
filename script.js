@@ -47,12 +47,12 @@ document.addEventListener("DOMContentLoaded", async () => {
   };
 
   // 添加多个模型：可以是同一个模型或不同模型
-  addModel('./assets/models/model.glb', [-0.3, -1.25, 0.2], 0.1);       
-  addModel('./assets/models/model.glb', [0.2, -1, 0.2], 0.1); 
-  addModel('./assets/models/model.glb', [-0.15, -0.15, 0.2], 0.1);
-  addModel('./assets/models/model.glb', [0.1, 0.35, 0.2], 0.1); 
-  addModel('./assets/models/model.glb', [-0.3, 0.85, 0.2], 0.1); 
-  addModel('./assets/models/model.glb', [0.3, 1.25, 0.2], 0.1); 
+  addModel('./assets/models/Clown.glb', [-0.3, -1.25, 0.2], 0.1);       
+  addModel('./assets/models/Tower.glb', [0.2, -1, 0.2], 0.1); 
+  addModel('./assets/models/Cat.glb', [-0.15, -0.15, 0.2], 0.1);
+  addModel('./assets/models/Care.glb', [0.1, 0.35, 0.2], 0.1); 
+  addModel('./assets/models/Marx.glb', [-0.3, 0.85, 0.2], 0.1); 
+  addModel('./assets/models/Magi.glb', [0.3, 1.25, 0.2], 0.1); 
   // 点击进入全屏（只触发一次）
   document.body.addEventListener('click', async () => {
     if (!document.fullscreenElement && document.body.requestFullscreen) {
